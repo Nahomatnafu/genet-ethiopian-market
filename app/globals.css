@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/30;
+  }
+}
+
+@layer components {
+  /* Gold underline hover state used across nav links */
+  .link-gold {
+    @apply relative text-current no-underline;
+  }
+  .link-gold::after {
+    content: "";
+    @apply absolute -bottom-1 left-0 h-px w-0 bg-gold transition-all duration-300;
+  }
+  .link-gold:hover::after,
+  .link-gold[aria-current="page"]::after {
+    @apply w-full;
+  }
+
+  /* Thin gold rule used as a section accent */
+  .gold-rule {
+    @apply h-px w-16 bg-gold;
+  }
+
+  .btn-gold {
+    @apply inline-block border border-gold px-8 py-3 text-xs uppercase tracking-widest2 text-gold transition-colors duration-300 hover:bg-gold hover:text-forest-deep;
+  }
+
+  .btn-dark {
+    @apply inline-block border border-forest px-8 py-3 text-xs uppercase tracking-widest2 text-forest transition-colors duration-300 hover:bg-forest hover:text-cream;
+  }
+}
+
+@layer utilities {
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fade-in-section {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}

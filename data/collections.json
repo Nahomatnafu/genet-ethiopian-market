@@ -1,0 +1,82 @@
+[
+  {
+    "id": "c1a7e9d2-0000-4000-8000-000000000001",
+    "slug": "women-dresses",
+    "name": "Women Dresses Collection",
+    "photos": [
+      {
+        "id": "p1000000-0000-4000-8000-000000000001",
+        "url": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Elegant traditional dress on model — replace with habesha kemis photo",
+        "order": 0
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000002",
+        "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Styled dress photo — replace with women's collection photo",
+        "order": 1
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000003",
+        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Bridal dress detail — replace with wedding kemis photo",
+        "order": 2
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000004",
+        "url": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Fashion detail shot — replace with embroidery close-up",
+        "order": 3
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000005",
+        "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Styled model photo — replace with netela / cultural garment photo",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "c1a7e9d2-0000-4000-8000-000000000002",
+    "slug": "groceries",
+    "name": "Groceries Collection",
+    "photos": [
+      {
+        "id": "p2000000-0000-4000-8000-000000000001",
+        "url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Colorful spices — replace with berbere and spice photos",
+        "order": 0
+      },
+      {
+        "id": "p2000000-0000-4000-8000-000000000002",
+        "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Prepared food — replace with injera and traditional dishes",
+        "order": 1
+      },
+      {
+        "id": "p2000000-0000-4000-8000-000000000003",
+        "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Spice powders — replace with shiro, teff, and lentils",
+        "order": 2
+      },
+      {
+        "id": "p2000000-0000-4000-8000-000000000004",
+        "url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Coffee beans — replace with Ethiopian coffee photo",
+        "order": 3
+      },
+      {
+        "id": "p2000000-0000-4000-8000-000000000005",
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Coffee cup — replace with jebena coffee set photo",
+        "order": 4
+      },
+      {
+        "id": "p2000000-0000-4000-8000-000000000006",
+        "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "[PLACEHOLDER] Market shelves — replace with in-store photography",
+        "order": 5
+      }
+    ]
+  }
+]
