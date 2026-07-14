@@ -6,33 +6,63 @@
     "photos": [
       {
         "id": "p1000000-0000-4000-8000-000000000001",
-        "url": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Elegant traditional dress on model — replace with habesha kemis photo",
+        "url": "/images/genet_02.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
         "order": 0
       },
       {
         "id": "p1000000-0000-4000-8000-000000000002",
-        "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Styled dress photo — replace with women's collection photo",
+        "url": "/images/genet_03.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
         "order": 1
       },
       {
         "id": "p1000000-0000-4000-8000-000000000003",
-        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Bridal dress detail — replace with wedding kemis photo",
+        "url": "/images/genet_04.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
         "order": 2
       },
       {
         "id": "p1000000-0000-4000-8000-000000000004",
-        "url": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Fashion detail shot — replace with embroidery close-up",
+        "url": "/images/genet_05.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
         "order": 3
       },
       {
         "id": "p1000000-0000-4000-8000-000000000005",
-        "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Styled model photo — replace with netela / cultural garment photo",
+        "url": "/images/genet_06.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
         "order": 4
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000006",
+        "url": "/images/genet_07.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "order": 5
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000007",
+        "url": "/images/genet_08.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "order": 6
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000008",
+        "url": "/images/genet_09.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "order": 7
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000009",
+        "url": "/images/genet_10.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "order": 8
+      },
+      {
+        "id": "p1000000-0000-4000-8000-000000000010",
+        "url": "/images/genet_11.jpg",
+        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "order": 9
       }
     ]
   },

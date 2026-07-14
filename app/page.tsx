@@ -8,10 +8,7 @@ import { InstagramIcon } from "@/components/Nav";
 
 export const dynamic = "force-dynamic";
 
-// [PLACEHOLDER] Stock hero image — replace with a styled photo of traditional
-// clothing from the client's photoshoot.
-const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=2000&q=80";
+const HERO_IMAGE = "/images/genet_01.jpg";
 
 const pillars = [
   {
@@ -80,7 +77,7 @@ export default async function Home() {
       <section className="relative flex min-h-[92vh] items-center justify-center overflow-hidden bg-forest-deep">
         <Image
           src={HERO_IMAGE}
-          alt="[PLACEHOLDER] Traditional Ethiopian clothing styled elegantly"
+          alt="Genet Ethiopian Market storefront with traditional dresses in the window, Wheaton, Maryland"
           fill
           priority
           sizes="100vw"
