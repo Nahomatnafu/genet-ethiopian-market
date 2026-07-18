@@ -10,7 +10,15 @@ export type Photo = {
   url: string;
   alt: string;
   order: number;
+  // Whole-dollar price. Every photo is a sellable product; see lib/products.ts.
+  price: number;
 };
+
+// Random whole-dollar price in the $50–$250 range, assigned once when a photo
+// is added so prices stay stable across renders.
+export function randomPrice(): number {
+  return Math.floor(Math.random() * 201) + 50;
+}
 
 export type Collection = {
   id: string;
@@ -107,6 +115,7 @@ export async function addPhoto(
     url: photo.url,
     alt: photo.alt,
     order: collection.photos.length,
+    price: randomPrice(),
   };
   collection.photos.push(created);
   await writeAll(collections);

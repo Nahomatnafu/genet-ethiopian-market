@@ -8,61 +8,71 @@
         "id": "p1000000-0000-4000-8000-000000000001",
         "url": "/images/genet_02.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 0
+        "order": 0,
+        "price": 221
       },
       {
         "id": "p1000000-0000-4000-8000-000000000002",
         "url": "/images/genet_03.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 1
+        "order": 1,
+        "price": 213
       },
       {
         "id": "p1000000-0000-4000-8000-000000000003",
         "url": "/images/genet_04.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 2
+        "order": 2,
+        "price": 117
       },
       {
         "id": "p1000000-0000-4000-8000-000000000004",
         "url": "/images/genet_05.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 3
+        "order": 3,
+        "price": 180
       },
       {
         "id": "p1000000-0000-4000-8000-000000000005",
         "url": "/images/genet_06.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 4
+        "order": 4,
+        "price": 229
       },
       {
         "id": "p1000000-0000-4000-8000-000000000006",
         "url": "/images/genet_07.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 5
+        "order": 5,
+        "price": 232
       },
       {
         "id": "p1000000-0000-4000-8000-000000000007",
         "url": "/images/genet_08.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 6
+        "order": 6,
+        "price": 166
       },
       {
         "id": "p1000000-0000-4000-8000-000000000008",
         "url": "/images/genet_09.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 7
+        "order": 7,
+        "price": 81
       },
       {
         "id": "p1000000-0000-4000-8000-000000000009",
         "url": "/images/genet_10.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 8
+        "order": 8,
+        "price": 237
       },
       {
         "id": "p1000000-0000-4000-8000-000000000010",
         "url": "/images/genet_11.jpg",
         "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
-        "order": 9
+        "order": 9,
+        "price": 69
       }
     ]
   },
@@ -75,37 +85,43 @@
         "id": "p2000000-0000-4000-8000-000000000001",
         "url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Colorful spices — replace with berbere and spice photos",
-        "order": 0
+        "order": 0,
+        "price": 245
       },
       {
         "id": "p2000000-0000-4000-8000-000000000002",
         "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Prepared food — replace with injera and traditional dishes",
-        "order": 1
+        "order": 1,
+        "price": 172
       },
       {
         "id": "p2000000-0000-4000-8000-000000000003",
         "url": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Spice powders — replace with shiro, teff, and lentils",
-        "order": 2
+        "order": 2,
+        "price": 92
       },
       {
         "id": "p2000000-0000-4000-8000-000000000004",
         "url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Coffee beans — replace with Ethiopian coffee photo",
-        "order": 3
+        "order": 3,
+        "price": 224
       },
       {
         "id": "p2000000-0000-4000-8000-000000000005",
         "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Coffee cup — replace with jebena coffee set photo",
-        "order": 4
+        "order": 4,
+        "price": 210
       },
       {
         "id": "p2000000-0000-4000-8000-000000000006",
         "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
         "alt": "[PLACEHOLDER] Market shelves — replace with in-store photography",
-        "order": 5
+        "order": 5,
+        "price": 164
       }
     ]
   }

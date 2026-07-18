@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { CartProvider } from "@/components/cart/CartContext";
+import { getCurrentUser } from "@/lib/customer-auth";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -35,17 +37,21 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const user = await getCurrentUser();
+
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <body>
-        <Nav />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+        <CartProvider>
+          <Nav user={user} />
+          <main className="min-h-screen">{children}</main>
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

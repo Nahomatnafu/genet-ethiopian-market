@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCollectionBySlug } from "@/lib/collections";
-import PhotoGrid from "@/components/PhotoGrid";
+import { productsForCollection } from "@/lib/products";
+import ProductGrid from "@/components/ProductGrid";
 import { site } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -29,6 +30,8 @@ export default async function CollectionDetailPage({
   const collection = await getCollectionBySlug(params.slug);
   if (!collection) notFound();
 
+  const products = productsForCollection(collection);
+
   return (
     <div className="mx-auto max-w-6xl px-5 py-20">
       <Link
@@ -42,24 +45,15 @@ export default async function CollectionDetailPage({
       </h1>
       <div className="gold-rule mt-6" />
       <p className="mt-6 max-w-xl text-sm leading-relaxed text-ink/60">
-        To inquire about anything you see, call{" "}
+        Add pieces to your cart and check out online, or visit us in store. Call{" "}
         <a href={site.phoneHref} className="text-forest underline decoration-gold underline-offset-4">
           {site.phone}
         </a>{" "}
-        or message us on{" "}
-        <a
-          href={site.instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-forest underline decoration-gold underline-offset-4"
-        >
-          Instagram
-        </a>
-        .
+        with any questions.
       </p>
 
       <div className="mt-14">
-        <PhotoGrid photos={collection.photos} />
+        <ProductGrid products={products} />
       </div>
     </div>
   );
