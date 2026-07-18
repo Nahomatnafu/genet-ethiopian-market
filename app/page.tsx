@@ -45,23 +45,23 @@ const pillars = [
   },
 ];
 
-// [PLACEHOLDER — REPLACE WITH REAL REVIEWS] Copy 3–5 real quotes from the
-// Google Business Profile or Instagram before launch.
+// Real 5-star Google reviews (screenshots in public/testimonials/), lightly
+// trimmed to fit the cards.
 const testimonials = [
   {
     quote:
-      "[PLACEHOLDER — REPLACE WITH REAL REVIEW] Beautiful selection of traditional dresses and the family matching sets made our wedding unforgettable.",
-    name: "Customer Name",
+      "We have a family wedding, and we ordered dresses for a group of 17 people. We received the best habesha kemise on time, and all the dresses are beautiful. Thank you!",
+    name: "Sefina Ibrahim",
   },
   {
     quote:
-      "[PLACEHOLDER — REPLACE WITH REAL REVIEW] The freshest injera in the area and every spice I need for home cooking.",
-    name: "Customer Name",
+      "Amazing seamstress — perfect fit every time! I brought in a few pieces that needed tailoring and the fit was flawless. Great attention to detail, very friendly service, and fast turnaround. Definitely my go-to for alterations in Silver Spring!",
+    name: "Angel Johnson",
   },
   {
     quote:
-      "[PLACEHOLDER — REPLACE WITH REAL REVIEW] Warm, welcoming service — they helped us coordinate outfits for our whole family for Meskel.",
-    name: "Customer Name",
+      "Her customer service is truly excellent — kind, professional, and easy to communicate with. The designs are elegant and authentic, and her prices are very fair for such high-quality work. I will definitely order again.",
+    name: "Tig M.",
   },
 ];
 
@@ -160,7 +160,7 @@ export default async function Home() {
               Rooted in Tradition
             </h2>
             <div className="gold-rule mx-auto mt-6" />
-            {/* [PLACEHOLDER — replace with the owner's own story and photo] */}
+            {/* Draft copy — replace with the owner's own story and photo before launch */}
             <p className="mt-8 leading-loose text-cream/70">
               Genet Ethiopian Market was founded to bring the beauty of
               Ethiopian and Eritrean culture to our community — from
@@ -169,8 +169,8 @@ export default async function Home() {
               wedding party, celebrating a graduation, or cooking a family
               meal, we are honored to be part of your story.
             </p>
-            <p className="mt-6 text-xs uppercase tracking-widest2 text-cream/40">
-              [Placeholder — to be replaced with the owner&apos;s own words]
+            <p className="mt-6 text-xs uppercase tracking-widest2 text-gold/70">
+              Tradition, handcrafted.
             </p>
           </FadeIn>
         </div>

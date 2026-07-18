@@ -9,15 +9,18 @@ export type Product = {
   id: string;
   name: string;
   price: number;
+  compareAt?: number;
   image: string;
   alt: string;
   collectionSlug: string;
   collectionName: string;
 };
 
-// Derive a display name from the owning collection, e.g. a photo in
-// "Women Dresses Collection" becomes "Women Dresses — Piece 3".
+// Prefer the photo's own display name; otherwise derive one from the owning
+// collection, e.g. a photo in "Women Dresses Collection" becomes
+// "Women Dresses — Piece 3".
 export function productName(collection: Collection, photo: Photo): string {
+  if (photo.name) return photo.name;
   const base = collection.name.replace(/\s*collection\s*$/i, "").trim();
   return `${base} — Piece ${photo.order + 1}`;
 }
@@ -27,6 +30,7 @@ export function toProduct(collection: Collection, photo: Photo): Product {
     id: photo.id,
     name: productName(collection, photo),
     price: photo.price,
+    compareAt: photo.compareAt,
     image: photo.url,
     alt: photo.alt,
     collectionSlug: collection.slug,
@@ -35,5 +39,5 @@ export function toProduct(collection: Collection, photo: Photo): Product {
 }
 
 export function formatPrice(n: number): string {
-  return `$${n}`;
+  return Number.isInteger(n) ? `$${n}` : `$${n.toFixed(2)}`;
 }

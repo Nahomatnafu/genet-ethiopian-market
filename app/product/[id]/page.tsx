@@ -59,8 +59,15 @@ export default async function ProductPage({
             {product.name}
           </h1>
           <div className="gold-rule mt-6" />
-          <p className="mt-6 font-serif text-3xl text-gold">
-            {formatPrice(product.price)}
+          <p className="mt-6 flex items-baseline gap-3">
+            <span className="font-serif text-3xl text-gold">
+              {formatPrice(product.price)}
+            </span>
+            {product.compareAt && (
+              <span className="text-lg text-ink/40 line-through">
+                {formatPrice(product.compareAt)}
+              </span>
+            )}
           </p>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-ink/60">
             A handpicked piece from our {product.collectionName.toLowerCase()}.

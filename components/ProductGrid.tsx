@@ -39,8 +39,15 @@ export default function ProductGrid({ products }: { products: Product[] }) {
               >
                 {product.name}
               </Link>
-              <span className="flex-none font-serif text-lg text-gold">
-                {formatPrice(product.price)}
+              <span className="flex-none text-right">
+                {product.compareAt && (
+                  <span className="mr-2 text-sm text-ink/40 line-through">
+                    {formatPrice(product.compareAt)}
+                  </span>
+                )}
+                <span className="font-serif text-lg text-gold">
+                  {formatPrice(product.price)}
+                </span>
               </span>
             </div>
             <div className="mt-4">

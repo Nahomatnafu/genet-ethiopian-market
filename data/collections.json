@@ -1,127 +1,318 @@
 [
   {
     "id": "c1a7e9d2-0000-4000-8000-000000000001",
-    "slug": "women-dresses",
-    "name": "Women Dresses Collection",
+    "slug": "habesha-dresses",
+    "name": "Habesha Dresses",
     "photos": [
       {
         "id": "p1000000-0000-4000-8000-000000000001",
-        "url": "/images/genet_02.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-vneck-crimson.jpg",
+        "alt": "V-neck habesha kemis with crimson and gold triangle tibeb border",
         "order": 0,
-        "price": 221
+        "name": "V-Neck Habesha Kemis — Crimson & Gold Triangle Tibeb",
+        "price": 237.79,
+        "compareAt": 409.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000002",
-        "url": "/images/genet_03.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-offshoulder-peach.jpg",
+        "alt": "Off-shoulder habesha dress in soft peach with bronze diamond embroidery",
         "order": 1,
-        "price": 213
+        "name": "Off-Shoulder Habesha Dress — Soft Peach & Bronze Diamond",
+        "price": 255.19,
+        "compareAt": 439.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000003",
-        "url": "/images/genet_04.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-modern-burgundy.jpg",
+        "alt": "Modern burgundy Ethiopian dress with a contemporary silhouette",
         "order": 2,
-        "price": 117
+        "name": "Modern Burgundy Habesha Dress — Contemporary Cut",
+        "price": 237.79,
+        "compareAt": 409.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000004",
-        "url": "/images/genet_05.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-ashenda-vibrant.jpg",
+        "alt": "Vibrant handwoven habesha kemis with colorful details for Ashenda",
         "order": 3,
-        "price": 180
+        "name": "Vibrant Handwoven Kemis — Ashenda Celebration",
+        "price": 168.19,
+        "compareAt": 289.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000005",
-        "url": "/images/genet_06.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-cross-embroidery.jpg",
+        "alt": "Handcrafted habesha kemis with intricate cross embroidery",
         "order": 4,
-        "price": 229
+        "name": "Handcrafted Kemis — Intricate Cross Embroidery",
+        "price": 220.39,
+        "compareAt": 379.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000006",
-        "url": "/images/genet_07.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-floral-events.jpg",
+        "alt": "Floral embroidered Ethiopian traditional dress for events and holidays",
         "order": 5,
-        "price": 232
+        "name": "Floral Embroidered Dress — For Events & Holidays",
+        "price": 229.09,
+        "compareAt": 394.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000007",
-        "url": "/images/genet_08.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-newyear-floral.jpg",
+        "alt": "Flowing habesha kemis with delicate floral embroidery for New Year",
         "order": 6,
-        "price": 166
+        "name": "Flowing Kemis — Delicate Florals, New Year",
+        "price": 134.39,
+        "compareAt": 279.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000008",
-        "url": "/images/genet_09.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-simple-green-tibeb.jpg",
+        "alt": "Simple habesha kemis with green handwoven tibeb border",
         "order": 7,
-        "price": 81
+        "name": "Simple Kemis — Green Handwoven Tibeb",
+        "price": 134.39,
+        "compareAt": 279.99
       },
       {
         "id": "p1000000-0000-4000-8000-000000000009",
-        "url": "/images/genet_10.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-heritage-kaftan.jpg",
+        "alt": "Ethiopian kaftan poncho dress with vibrant tibeb embroidery",
         "order": 8,
-        "price": 237
+        "name": "Heritage Breeze Kaftan — Vibrant Tibeb Poncho",
+        "price": 131.99,
+        "compareAt": 275
       },
       {
         "id": "p1000000-0000-4000-8000-000000000010",
-        "url": "/images/genet_11.jpg",
-        "alt": "Traditional Ethiopian women's dress — Genet Ethiopian Market",
+        "url": "/images/dress-sage-offshoulder.jpg",
+        "alt": "Celestial sage off-shoulder habesha kemis heritage dress",
         "order": 9,
-        "price": 69
+        "name": "Celestial Sage Off-Shoulder Kemis",
+        "price": 241.99,
+        "compareAt": 416.99
+      }
+    ]
+  },
+  {
+    "id": "c1a7e9d2-0000-4000-8000-000000000003",
+    "slug": "wedding-dresses",
+    "name": "Wedding Dresses",
+    "photos": [
+      {
+        "id": "p3000000-0000-4000-8000-000000000001",
+        "url": "/images/wedding-gold-green.jpg",
+        "alt": "Traditional Ethiopian wedding kemis in gold and green",
+        "order": 0,
+        "name": "Ethiopian Wedding Kemis — Gold & Green",
+        "price": 594.99,
+        "compareAt": 849.99
+      },
+      {
+        "id": "p3000000-0000-4000-8000-000000000002",
+        "url": "/images/wedding-colorful-embroidery.jpg",
+        "alt": "Exquisite Ethiopian wedding dress with colorful embroidery",
+        "order": 1,
+        "name": "Exquisite Wedding Kemis — Colorful Embroidery",
+        "price": 510.99,
+        "compareAt": 729.99
+      },
+      {
+        "id": "p3000000-0000-4000-8000-000000000003",
+        "url": "/images/wedding-pastel-rose.jpg",
+        "alt": "Royal habesha wedding gown in pastel rose with ornate gold border",
+        "order": 2,
+        "name": "Royal Wedding Gown — Pastel Rose & Gold Border",
+        "price": 526.99,
+        "compareAt": 752.99
+      },
+      {
+        "id": "p3000000-0000-4000-8000-000000000004",
+        "url": "/images/wedding-offshoulder-bridal.jpg",
+        "alt": "Royal off-shoulder Ethiopian bridal gown with luxe gold embroidery",
+        "order": 3,
+        "name": "Royal Off-Shoulder Bridal Gown — Luxe Gold Embroidery",
+        "price": 437.99,
+        "compareAt": 625.99
+      }
+    ]
+  },
+  {
+    "id": "c1a7e9d2-0000-4000-8000-000000000004",
+    "slug": "couples-matching-sets",
+    "name": "Couples' Matching Sets",
+    "photos": [
+      {
+        "id": "p4000000-0000-4000-8000-000000000001",
+        "url": "/images/couple-turquoise-gold.jpg",
+        "alt": "Matching couple's set in luminous turquoise with gold diamond tibeb",
+        "order": 0,
+        "name": "Luminous Turquoise & Gold Diamond Couple's Set",
+        "price": 356.99,
+        "compareAt": 509.99
+      },
+      {
+        "id": "p4000000-0000-4000-8000-000000000002",
+        "url": "/images/couple-crimson-corset.jpg",
+        "alt": "Crimson and gold corset-style habesha dress with matching men's formal suit",
+        "order": 1,
+        "name": "Crimson & Gold Corset Kemis + Men's Formal Suit",
+        "price": 583.79,
+        "compareAt": 833.99
+      },
+      {
+        "id": "p4000000-0000-4000-8000-000000000003",
+        "url": "/images/couple-royal-offshoulder.jpg",
+        "alt": "Royal off-shoulder habesha dress with coordinating embroidered men's suit",
+        "order": 2,
+        "name": "Royal Off-Shoulder Kemis + Embroidered Men's Suit",
+        "price": 615.29,
+        "compareAt": 878.99
+      },
+      {
+        "id": "p4000000-0000-4000-8000-000000000004",
+        "url": "/images/couple-royal-wedding.jpg",
+        "alt": "Coordinated Ethiopian traditional wedding attire matching set",
+        "order": 3,
+        "name": "Royal Coordinated Wedding Attire Set",
+        "price": 416.99,
+        "compareAt": 595
+      },
+      {
+        "id": "p4000000-0000-4000-8000-000000000005",
+        "url": "/images/couple-green-gold.jpg",
+        "alt": "Ethiopian couple's outfit with green and gold tibeb — kemis and men's suit",
+        "order": 4,
+        "name": "Green & Gold Tibeb Couple's Outfit",
+        "price": 489.99,
+        "compareAt": 699.99
+      },
+      {
+        "id": "p4000000-0000-4000-8000-000000000006",
+        "url": "/images/couple-abiding-green.jpg",
+        "alt": "Modern green Ethiopian couple's matching outfit",
+        "order": 5,
+        "name": "Abiding Love — Modern Green Couple's Set",
+        "price": 615.99,
+        "compareAt": 879.99
       }
     ]
   },
   {
     "id": "c1a7e9d2-0000-4000-8000-000000000002",
     "slug": "groceries",
-    "name": "Groceries Collection",
+    "name": "Groceries",
     "photos": [
       {
         "id": "p2000000-0000-4000-8000-000000000001",
         "url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Colorful spices — replace with berbere and spice photos",
+        "alt": "Berbere and traditional Ethiopian spices in the market",
         "order": 0,
-        "price": 245
+        "name": "Berbere Spice Blend — 1 lb",
+        "price": 12.99
       },
       {
         "id": "p2000000-0000-4000-8000-000000000002",
         "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Prepared food — replace with injera and traditional dishes",
+        "alt": "Fresh injera with traditional Ethiopian dishes",
         "order": 1,
-        "price": 172
+        "name": "Fresh Injera — Pack of 5",
+        "price": 8.99
       },
       {
         "id": "p2000000-0000-4000-8000-000000000003",
         "url": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Spice powders — replace with shiro, teff, and lentils",
+        "alt": "Shiro powder and milled spices",
         "order": 2,
-        "price": 92
+        "name": "Shiro Powder — 1 lb",
+        "price": 11.99
       },
       {
         "id": "p2000000-0000-4000-8000-000000000004",
         "url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Coffee beans — replace with Ethiopian coffee photo",
+        "alt": "Freshly roasted Ethiopian Yirgacheffe coffee beans",
         "order": 3,
-        "price": 224
+        "name": "Yirgacheffe Coffee Beans — 1 lb",
+        "price": 18.99
       },
       {
         "id": "p2000000-0000-4000-8000-000000000005",
         "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Coffee cup — replace with jebena coffee set photo",
+        "alt": "Traditional Ethiopian coffee ceremony",
         "order": 4,
-        "price": 210
+        "name": "Traditional Coffee Ceremony Set",
+        "price": 44.99
       },
       {
         "id": "p2000000-0000-4000-8000-000000000006",
         "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "[PLACEHOLDER] Market shelves — replace with in-store photography",
+        "alt": "Ethiopian pantry staples on the market shelves",
         "order": 5,
-        "price": 164
+        "name": "Ethiopian Pantry Staples Bundle",
+        "price": 29.99
+      }
+    ]
+  },
+  {
+    "id": "c1a7e9d2-0000-4000-8000-000000000005",
+    "slug": "mens-clothing",
+    "name": "Men's Clothing",
+    "photos": [
+      {
+        "id": "p5000000-0000-4000-8000-000000000001",
+        "url": "/images/mens-premium-set.jpg",
+        "alt": "Luxury men's habesha clothing — premium cultural Ethiopian wear",
+        "order": 0,
+        "name": "Luxury Men's Habesha Wear — Premium Cultural Set",
+        "price": 90.99,
+        "compareAt": 129.99
+      },
+      {
+        "id": "p5000000-0000-4000-8000-000000000002",
+        "url": "/images/mens-embroidered-shirt.jpg",
+        "alt": "Hand-embroidered Ethiopian traditional formal shirt",
+        "order": 1,
+        "name": "Hand-Embroidered Formal Habesha Shirt",
+        "price": 97.99,
+        "compareAt": 139.99
+      },
+      {
+        "id": "p5000000-0000-4000-8000-000000000003",
+        "url": "/images/mens-3piece-suit.jpg",
+        "alt": "Men's three-piece habesha suit with light blue and sage tilf embroidery",
+        "order": 2,
+        "name": "3-Piece Habesha Suit — Light Blue & Sage Tilf",
+        "price": 157.99,
+        "compareAt": 225
+      },
+      {
+        "id": "p5000000-0000-4000-8000-000000000004",
+        "url": "/images/mens-crimson-heritage.jpg",
+        "alt": "Handwoven Ethiopian men's heritage shirt with gold and red detail",
+        "order": 3,
+        "name": "Imperial Crimson Heritage Shirt — Gold & Red Detail",
+        "price": 90.99,
+        "compareAt": 129.99
+      },
+      {
+        "id": "p5000000-0000-4000-8000-000000000005",
+        "url": "/images/mens-gold-silver.jpg",
+        "alt": "Gold and silver traditional Ethiopian men's long-sleeve outfit",
+        "order": 4,
+        "name": "Gold & Silver Traditional Long-Sleeve Outfit",
+        "price": 136.99,
+        "compareAt": 195
+      },
+      {
+        "id": "p5000000-0000-4000-8000-000000000006",
+        "url": "/images/mens-heritage-set.jpg",
+        "alt": "Traditional Ethiopian men's shirt and pants heritage set",
+        "order": 5,
+        "name": "Heritage Shirt & Pants Set",
+        "price": 139.99,
+        "compareAt": 199.99
       }
     ]
   }

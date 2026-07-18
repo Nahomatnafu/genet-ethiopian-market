@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { site } from "@/lib/site";
 import { useCart } from "@/components/cart/CartContext";
+import LogoMark from "@/components/LogoMark";
 import type { PublicUser } from "@/lib/users";
 
 const links = [
@@ -25,12 +26,15 @@ export default function Nav({ user }: { user: PublicUser | null }) {
   return (
     <header className="sticky top-0 z-40 border-b border-gold/20 bg-forest-deep/95 text-cream backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-        <Link href="/" className="group">
-          <span className="font-serif text-2xl tracking-wide text-cream">
-            Genet
-          </span>
-          <span className="ml-2 hidden text-[0.65rem] uppercase tracking-widest2 text-gold sm:inline">
-            Ethiopian Market
+        <Link href="/" className="group flex items-center gap-3">
+          <LogoMark className="h-9 w-9 flex-none text-gold" />
+          <span>
+            <span className="font-serif text-2xl tracking-wide text-cream">
+              Genet
+            </span>
+            <span className="ml-2 hidden text-[0.65rem] uppercase tracking-widest2 text-gold sm:inline">
+              Ethiopian Market
+            </span>
           </span>
         </Link>
 

@@ -1,5 +1,6 @@
 import { site } from "@/lib/site";
 import { InstagramIcon } from "@/components/Nav";
+import LogoMark from "@/components/LogoMark";
 import MapEmbed from "@/components/MapEmbed";
 
 export default function Footer() {
@@ -7,10 +8,15 @@ export default function Footer() {
     <footer className="bg-forest-deep text-cream">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 md:grid-cols-3">
         <div>
-          <p className="font-serif text-2xl">Genet</p>
-          <p className="mt-1 text-[0.65rem] uppercase tracking-widest2 text-gold">
-            Ethiopian Market
-          </p>
+          <div className="flex items-center gap-3">
+            <LogoMark className="h-11 w-11 flex-none text-gold" />
+            <div>
+              <p className="font-serif text-2xl">Genet</p>
+              <p className="mt-1 text-[0.65rem] uppercase tracking-widest2 text-gold">
+                Ethiopian Market
+              </p>
+            </div>
+          </div>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-cream/70">
             Traditional Ethiopian &amp; Eritrean clothing, family matching
             sets, and authentic foods — in the heart of Wheaton, Maryland.

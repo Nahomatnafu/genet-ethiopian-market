@@ -10,8 +10,14 @@ export type Photo = {
   url: string;
   alt: string;
   order: number;
-  // Whole-dollar price. Every photo is a sellable product; see lib/products.ts.
+  // Price in dollars (may include cents). Every photo is a sellable product;
+  // see lib/products.ts.
   price: number;
+  // Display name for the product. Falls back to a derived
+  // "<Collection> — Piece N" name when absent (admin uploads don't set it).
+  name?: string;
+  // Original ("was") price shown struck through next to the sale price.
+  compareAt?: number;
 };
 
 // Random whole-dollar price in the $50–$250 range, assigned once when a photo

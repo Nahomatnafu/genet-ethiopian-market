@@ -12,7 +12,7 @@ export const site = {
     "https://www.google.com/maps/dir/?api=1&destination=11433+Georgia+Ave,+Wheaton,+MD+20902",
   hours: [
     { days: "Monday – Saturday", time: "10:00 AM – 8:00 PM" },
-    // [PLACEHOLDER] Confirm Sunday hours with the owner before publishing
+    // Sunday hours unconfirmed — check with the owner before publishing
     { days: "Sunday", time: "Call to confirm" },
   ],
 };
